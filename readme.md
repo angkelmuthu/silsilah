@@ -11,12 +11,15 @@
 > [Baca README Bahasa Indonesia](readme.id.md)
 
 ## About
+
 Genealogy (Silsilah) application to record our family members.
 
 ## Features
+
 This application uses Bahasa Indonesia and English based on `config.locale`.
 
 ### Logic Concept
+
 1. A person can have one father
 2. A person can have one mother
 3. A person can have one parent (couple of mother and father)
@@ -25,6 +28,7 @@ This application uses Bahasa Indonesia and English based on `config.locale`.
 6. A couple can have 0 to many children (based on parent_id)
 
 ### Family Member Entry
+
 1. Enter Name and Gender
 2. Set Father
 3. Set Mother
@@ -32,6 +36,7 @@ This application uses Bahasa Indonesia and English based on `config.locale`.
 5. Add Child
 
 ### Person Attribute
+
 1. Nickname
 2. Gender
 3. Fullname
@@ -42,6 +47,7 @@ This application uses Bahasa Indonesia and English based on `config.locale`.
 8. Email
 
 ### Couple Attribute (TODO)
+
 1. Husband
 2. Wife
 3. Marriage Date
@@ -77,39 +83,50 @@ This application can be installed on local server and online server with these s
     ```
 
 ## Testing
+
 This application built with testing (TDD) using in-memory sqlite database.
+
 ```bash
 $ vendor/bin/phpunit
 ```
 
 ## Contributing
+
 Feel free to submit Issue for bugs or sugestions and Pull Request.
 
 ## Screenshots
 
 #### Family Tree
+
 ![Family Tree](public/images/02-pohon-keluarga.jpg "Family Tree")
 
 This family tree view is using the [Horizontal Family Tree CSS](https://codepen.io/P233/pen/Kzbsi), thanks to [Peiwen Lu](https://codepen.io/P233/pen/Kzbsi).
 
 #### Family Chart
+
 ![Family Chart](public/images/03-bagan-keluarga.jpg "Family Chart")
 
 #### Search Family Member
+
 ![Search Family Member](public/images/01-cari-keluarga.jpg "Search Family Member")
 
 #### User Profile
+
 ![User Profile](public/images/04-profil.jpg "User Profile")
 
 #### Profile Form
+
 ![Profile Form](public/images/05-form-profil.jpg "Profile Form")
 
 #### Profil Edit Form
+
 ![Profil Edit Form](public/images/06-edit-profil.jpg "Profil Edit Form")
 
 #### Automated Testing
+
 ![Automated Testing](public/images/07-automated-testing.jpg "Automated Testing")
 
 ## License
 
 Silsilah project is open-sourced software licensed under the [MIT license](LICENSE).
+tes
