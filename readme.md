@@ -129,4 +129,3 @@ This family tree view is using the [Horizontal Family Tree CSS](https://codepen.
 ## License
 
 Silsilah project is open-sourced software licensed under the [MIT license](LICENSE).
-tes
